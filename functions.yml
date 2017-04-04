@@ -1,6 +1,6 @@
 functions:
   - name: mailer
-    version: 0.0.5
+    version: 0.0.6
     description: Serverless Function for sending emails
     handler: handler.send
     runtime: 'nodejs4.3'
