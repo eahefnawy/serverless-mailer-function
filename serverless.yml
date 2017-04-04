@@ -1,0 +1,15 @@
+service: serverless-mailer-function
+
+provider:
+  name: aws
+  environment:
+    EMAIL_SERVICE: Gmail
+    EMAIL_SERVICE_USER: myemai@gmail.com
+    EMAIL_SERVICE_PASS: mypassword
+functions:
+  mailerLocal:
+    handler: handler.send
+  mailer:
+    handler: mailer@^0.0.3
+    individually: true
+

@@ -1,0 +1,21 @@
+{
+  "name": "serverless-mailer-function",
+  "version": "0.0.1",
+  "description": "Dependencies for a Serverless mailer function",
+  "author": "Eslam A. Hefnawy <eslam@serverless.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eahefnawy/serverless-mailer-function"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "keywords": ["serverless", "email", "mailer"],
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "nodemailer": "^1.5.0",
+    "email-templates": "^2.0.1",
+    "handlebars": "^3.0.0"
+  }
+}

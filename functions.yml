@@ -1,0 +1,9 @@
+functions:
+  - name: mailer
+    version: 0.0.5
+    description: Serverless Function for sending emails
+    handler: handler.send
+    runtime: 'nodejs4.3'
+    license: 'MIT'
+    readme: ./README.md
+    repository: https://github.com/eahefnawy/serverless-mailer-function
